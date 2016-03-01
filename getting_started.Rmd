@@ -1,0 +1,16 @@
+---
+title: "Getting Started with R"
+author: "asif zubair"
+date: "February 29, 2016"
+output: html_document
+---
+
+A fun way for learning the ropes with R is using the package `swirl`
+
+```{r}
+install.packages("swirl")
+library(swirl)
+```
+
+This will open a dialogue in the Console and start teaching you R basics and introductory modelling.
+
