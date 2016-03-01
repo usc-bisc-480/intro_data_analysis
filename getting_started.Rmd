@@ -14,7 +14,7 @@ library(swirl)
 
 This will open a dialogue in the Console and start teaching you R basics and introductory modelling.
 
-Exercises:
+__Exercises:__
 
 - what is the version of R you are using ?
 ```
