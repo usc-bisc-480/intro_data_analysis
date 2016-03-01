@@ -14,3 +14,31 @@ library(swirl)
 
 This will open a dialogue in the Console and start teaching you R basics and introductory modelling.
 
+Exercises:
+
+- what is the version of R you are using ?
+```
+> version
+               _                           
+platform       x86_64-apple-darwin13.4.0   
+arch           x86_64                      
+os             darwin13.4.0                
+system         x86_64, darwin13.4.0        
+status                                     
+major          3                           
+minor          2.0                         
+year           2015                        
+month          04                          
+day            16                          
+svn rev        68180                       
+language       R                           
+version.string R version 3.2.0 (2015-04-16)
+nickname       Full of Ingredients         
+```
+- Create a numeric vector containing the numbers 2.23, 3.45, 1.87, 2.11, 7.33, 18.34, 19.23. What is the average of these numbers?
+- Use a `for` loop to determine the sum of squares of the first 25 natural numbers ?
+- The `cars` dataset is available in base R. You can type `cars` to see it. Use the `class` function to determine what type of object is cars.
+- How many rows does the `cars` object have?
+- What is the name of the second column of `cars`?
+- The simplest way to extract the columns of a `matrix` or `data.frame` is using `[`. For example you can access the second column with `cars[,2]`. What is the average distance traveled in this dataset?
+- Familiarize yourself with the `which` function. What row of `cars` has a a distance of 85?
