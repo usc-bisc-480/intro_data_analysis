@@ -51,7 +51,7 @@ nickname       Full of Ingredients
 
 
 - R data types by way of `state` data
-- please eneter `?state` on your console
+- please enter `?state` on your console
 ```
 state.area                #a NUMERIC vector giving the area of US states, in square miles
 state.name                #a CHARACTER vector (note the quote marks) of state names 
@@ -64,7 +64,7 @@ length(state.area)        #and some, like this useful one, just return a single 
 
 - Use a `for` loop to determine the sum of squares of the first 25 natural numbers ?
 
-In fact, let's try to solve this question using three methods . 
+In fact, let's try to solve this question using three methods. 
 
 First the `for` loop:
 ```{r}
@@ -107,6 +107,8 @@ sum2<-function(n){
     }
 }
 ```
+
+__Q:__ Can you tell me how to implement `factorial(n)` ?
 
 - The `cars` dataset is available in base R. You can type `cars` to see it. Use the `class` function to determine what type of object is cars.
 
