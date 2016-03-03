@@ -12,7 +12,7 @@ install.packages("swirl")
 library(swirl)
 ```
 
-This will open a dialogue in the Console and start teaching you R basics and introductory modelling.
+This will open a dialogue in the console and start teaching you `R` basics and other cool stuff.
 
 __Exercises:__
 
