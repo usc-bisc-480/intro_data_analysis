@@ -156,3 +156,10 @@ summary(lm.xy)
 plot(x, y, main="y vs x", pch=16)
 abline(lm.xy, col="red", lwd=3)
 ```
+
+Resources:
+- [DataCamp](https://www.datacamp.com/home)'s free R courses  
+- [Lynda](http://itservices.usc.edu/lynda) - use USC login  
+- [r-bloggers](http://www.r-bloggers.com) - R tutorials and tricks  
+- [stackoverflow](http://stackoverflow.com/questions/tagged/r) for troubleshooting  
+- 
