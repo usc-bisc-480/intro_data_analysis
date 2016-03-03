@@ -71,7 +71,7 @@ First the `for` loop:
 sum2 = 0
 for (i in seq(25)){
     sum2 = sum2 + i*i
-    }
+}
 print(sum2)
 ```
 
@@ -81,7 +81,7 @@ Great, but can we make this into a `function`:
 sum2<-function(n){
     temp = 0
     for (i in seq(n)){
-    temp = temp + i*i
+        temp = temp + i*i
     }
     return(temp)
 }
