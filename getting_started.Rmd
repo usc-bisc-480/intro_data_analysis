@@ -89,6 +89,25 @@ sum2<-function(n){
 
 
 - The `cars` dataset is available in base R. You can type `cars` to see it. Use the `class` function to determine what type of object is cars.
+
+```
+cars                 package:datasets                  R Documentation
+Speed and Stopping Distances of Cars
+Description:
+     The data give the speed of cars and the distances taken to stop.
+     Note that the data were recorded in the 1920s.
+Usage:
+     cars
+Format:
+     A data frame with 50 observations on 2 variables.
+       [,1]  speed  numeric  Speed (mph)            
+       [,2]  dist   numeric  Stopping distance (ft) 
+Source:
+     Ezekiel, M. (1930) _Methods of Correlation Analysis_.  Wiley.
+References:
+     McNeil, D. R. (1977) _Interactive Data Analysis_.  Wiley.
+```
+
 - How many rows does the `cars` object have?
 - What is the name of the second column of `cars`?
 - The simplest way to extract the columns of a `matrix` or `data.frame` is using `[`. For example you can access the second column with `cars[,2]`. What is the average distance traveled in this dataset?
