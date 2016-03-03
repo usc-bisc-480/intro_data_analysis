@@ -108,6 +108,11 @@ sum2<-function(n){
 }
 ```
 
+Wait! how would you actually do it in R
+```{r}
+sum(seq(25)**2)
+```
+
 __Q:__ Can you tell me how to implement `factorial(n)` ?
 
 - The `cars` dataset is available in base R. You can type `cars` to see it. Use the `class` function to determine what type of object is cars.
@@ -138,7 +143,7 @@ References:
 ```
 - Familiarize yourself with the `which` function. What row of `cars` has a a distance of 85?
 
-a linear regression example:
+now, for a linear regression example:
 
 - Lets make some data
 ```{r}
@@ -157,6 +162,18 @@ summary(lm.xy)
 ```{r}
 plot(x, y, main="y vs x", pch=16)
 abline(lm.xy, col="red", lwd=3)
+```
+
+__File I/O__
+
+Great! now let's write our data to file and see if we can read it back in
+
+```{r}
+write.table(data, file = "data.out", row.names = FALSE)
+
+# reading it in is just as easy
+data_in = read.table("data.out")
+data_in
 ```
 
 Resources:
