@@ -38,7 +38,8 @@ nickname       Full of Ingredients
 - Create a numeric vector containing the numbers 2.23, 3.45, 1.87, 2.11, 7.33, 18.34, 19.23. What is the average of these numbers?
 
 ```{r}
-
+numbers = c(2.23, 3.45, 1.87, 2.11, 7.33, 18.34, 19.23)
+    ...
 ```
 
 
@@ -111,5 +112,8 @@ References:
 - How many rows does the `cars` object have?
 - What is the name of the second column of `cars`?
 - The simplest way to extract the columns of a `matrix` or `data.frame` is using `[`. For example you can access the second column with `cars[,2]`. What is the average distance traveled in this dataset?
+```{r}
+
+```
 - Familiarize yourself with the `which` function. What row of `cars` has a a distance of 85?
 
