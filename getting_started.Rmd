@@ -35,13 +35,19 @@ language       R
 version.string R version 3.2.0 (2015-04-16)
 nickname       Full of Ingredients         
 ```
-- Create a numeric vector containing the numbers 2.23, 3.45, 1.87, 2.11, 7.33, 18.34, 19.23. What is the average of these numbers?
 
-```{r}
-numbers = c(2.23, 3.45, 1.87, 2.11, 7.33, 18.34, 19.23)
-    ...
+
+- R data types by way of `state` data
+- please eneter `?state` on your console
 ```
-
+state.area                #a NUMERIC vector giving the area of US states, in square miles
+state.name                #a CHARACTER vector (note the quote marks) of state names 
+sq.km <- state.area*2.59  #Arithmetic works on numeric vectors, e.g. convert sq miles to sq km
+sq.km                     #... the new vector has the calculation applied to each element in turn
+sqrt(sq.km)               #Many mathematical functions also apply to each element in turn 
+range(state.area)         #But some functions return different length vectors (here, just the max & min).
+length(state.area)        #and some, like this useful one, just return a single value.
+```
 
 - Use a `for` loop to determine the sum of squares of the first 25 natural numbers ?
 
@@ -69,6 +75,7 @@ sum2<-function(n){
 ```
 
 Cool! Let's use a mathematical identity:
+
 ```{r}
 sum2 <- function(...){
     temp = (n*(n+1)*(2*n+1)/6)
@@ -87,7 +94,6 @@ sum2<-function(n){
     }
 }
 ```
-
 
 - The `cars` dataset is available in base R. You can type `cars` to see it. Use the `class` function to determine what type of object is cars.
 
@@ -117,3 +123,23 @@ References:
 ```
 - Familiarize yourself with the `which` function. What row of `cars` has a a distance of 85?
 
+a linear regression example:
+
+- Lets make some data
+```{r}
+x = seq(10)
+y = 1 + 2*x + rnorm(10)
+data = data.frame(x=x, y=y)
+```
+
+- let's see dependence of the data
+```{r}
+lm.xy <- lm(y ~ x, data=data)
+summary(lm.xy)
+```
+
+- finally, let's see what we have computed
+```{r}
+plot(x, y, main="y vs x", pch=16)
+abline(lm.xy, col="red", lwd=3)
+```
