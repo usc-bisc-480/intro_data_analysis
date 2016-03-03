@@ -162,4 +162,3 @@ Resources:
 - [Lynda](http://itservices.usc.edu/lynda) - use USC login  
 - [r-bloggers](http://www.r-bloggers.com) - R tutorials and tricks  
 - [stackoverflow](http://stackoverflow.com/questions/tagged/r) for troubleshooting  
-- 
