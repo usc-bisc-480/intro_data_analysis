@@ -164,3 +164,7 @@ Resources:
 - [Lynda](http://itservices.usc.edu/lynda) - use USC login  
 - [r-bloggers](http://www.r-bloggers.com) - R tutorials and tricks  
 - [stackoverflow](http://stackoverflow.com/questions/tagged/r) for troubleshooting  
+
+Courses:
+- edX [course](https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x)
+- coursera bioconductor [course](https://www.coursera.org/learn/bioconductor)  
