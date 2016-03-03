@@ -5,6 +5,11 @@ date: "February 29, 2016"
 output: html_document
 ---
 
+R package repositories
+- [CRAN](https://cran.r-project.org)  
+    - [Statistical Genetics](https://cran.r-project.org/web/views/Genetics.html)  
+- [Bioconductor](http://bioconductor.org)  
+
 A fun way for learning the ropes with R is using the package `swirl`
 
 ```{r}
@@ -13,6 +18,14 @@ library(swirl)
 ```
 
 This will open a dialogue in the console and start teaching you `R` basics and other cool stuff.
+
+R programming basics:
+- Data Types
+- Assignment
+- Control Flow
+    - Loops
+    - Conditionals
+- Functions
 
 __Exercises:__
 
